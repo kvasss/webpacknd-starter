@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#465e69" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="apple-mobile-web-app-title" content="Webpack Tailwind" />
+    <meta name="application-name" content="Webpack Tailwind" />
+    <meta name="msapplication-TileColor" content="#e2e8f0" />
+    <meta name="msapplication-config" content="browserconfig.xml" />
+    <meta name="theme-color" content="#e2e8f0" />
+
+    <!-- Title & description -->
+    <title></title>
+    <meta
+      name="description"
+      content="Webpack 5, TailwindCSS, SASS, PostCSS, Babel, ESLint, Stylelint, Prettier and more."
+    />
+    <meta 
+      name="keywords" 
+      content="webpack, webpack5, sass, postcss, babel, eslint, stylelint, prettier" 
+    />
+
+    <script>
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
+    </script>
+  </head>
+  <body>
+
+    <!-- Demo App -->
+    <main class="flex flex-col min-h-full items-center justify-center bg-[#e2e8f0] px-6 py-24 sm:py-32 lg:px-8">
+      <img src="<%= require('./images/webpack-icon.svg') %>" class="animate-logo-bounce h-[36vmin]" />
+      <p class="mt-6 text-[calc(10px+2vmin)] leading-7 text-gray-500">
+        Edit <code>src/index.js</code> and save to reload.
+      </p>
+    </main>
+  </body>
+</html>
